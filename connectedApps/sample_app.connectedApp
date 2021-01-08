@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>sagar.kakkar@grazitti.co.uk</contactEmail>
+    <label>sample app</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDjjCCAnYCCQCU53HgUsnFwTANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSU4xEDAOBgNVBAgTB0hhcnlhbmExDzANBgNVBAcTBkFtYmFsYTEMMAoGA1UEChMDREVWMQwwCgYDVQQLEwNHUloxDjAMBgNVBAMTBXNhZ2FyMSowKAYJKoZIhvcNAQkBFhtzYWdhci5rYWtrYXJAZ3Jheml0dGkuY28udWswHhcNMjAwODE4MDUzNDUwWhcNMjEwODE4MDUzNDUwWjCBiDELMAkGA1UEBhMCSU4xEDAOBgNVBAgTB0hhcnlhbmExDzANBgNVBAcTBkFtYmFsYTEMMAoGA1UEChMDREVWMQwwCgYDVQQLEwNHUloxDjAMBgNVBAMTBXNhZ2FyMSowKAYJKoZIhvcNAQkBFhtzYWdhci5rYWtrYXJAZ3Jheml0dGkuY28udWswggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCjscD3lEVGDJ3f95gb+T8mWQq7y0PnfRiEG6kll4f2xRT+fS9U5Cy/z4cvhOyvVVg77UBisAhzGfvDc9EwgufSNBB8rVVbd5ei0oMFurv+EyVVZtlB+BRVh6Kooxp23s2eggAwdU+0UH8WTmFy1E5Z5UVumS5J9wx7e+6YPp8+JkCAXrM+xjLIIVhtKo6XVoNkpRLyVKSCFTcJUv9wRPanyEG2KpqLB28tpSWtwsL4T8ZHylGwbE2EQgCK+nzahbZLHBuxFmW9lBijZUbTV2FKI8VYSczoxqU3QDjUsIqv7a80Q7QAlEiwPluOUPnBCSmwSqj7MlRMaeQyg23RPzcxAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAGixYGcaeXub3NonsYN4SI0XpNTpg5si7q5I/1WmUCHN7MFyIUNulA7+vrjQAwyDCnv+S1l/RiDzZIVFPCdga002TCJ5U6ECaEitrLgXpGjRTR0vZJIKAiRpYprDMIvn3RPw8eNlFbJ3aFRCkVWGc39rkAgkhoXzEN04ifTe2T1fCvNnA3GPmmgRjMA7RTKfKEd/NyVc0wQ4FSzY+D7S6VTajuRp5fzkjepmS+2fI/Wrn9XP7KHNodB7klYgKpV6gt3tri5CjGoy60ospguimQw5yeNY/XcNSs6E7YoXbhjzQSepSR6JS6E2HON19Jfd8HsWbh9HvxXxWcjgersseHs=</certificate>
+        <consumerKey>3MVG9G9pzCUSkzZt_PqOwKIGLw77N4bMbh80DQbEah_8uRYFy56jGh7ebz68UP1_.oAUEZnwEHXhFpULjquSX</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

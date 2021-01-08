@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>share_aggreement_name_IBM</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>share aggreement name IBM</label>
+        <sharedTo>
+            <role>Chief_Sales_Officer</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>IBM</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>
