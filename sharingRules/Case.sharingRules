@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>low_priority_cases</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>low priority cases</label>
+        <sharedTo>
+            <group>PG2</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Low_priority_cases</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>urgent_cases</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>urgent cases</label>
+        <sharedTo>
+            <group>PG1</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Urgent_cases</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

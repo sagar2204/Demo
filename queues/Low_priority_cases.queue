@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Low priority cases</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>PG2</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueRoutingConfig>Low_priority_case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>
